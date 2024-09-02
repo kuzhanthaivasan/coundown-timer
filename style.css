@@ -1,0 +1,95 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Inspiration&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+    margin: 0;
+    padding:0;
+    font-family: "Poppins", system-ui;
+}
+
+body{
+    width:100vw;
+    height:100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+    background:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url('20240610054342_Vinayaka-Chaturthi.avif');
+    color:white;
+    background-size: cover;
+}
+
+.counter{
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    margin-top: 30px;
+    gap:10px
+
+}
+p{
+    font-size: 15px;
+}
+.festivel{
+    font-family: "Inspiration", cursive;
+    font-size: 50px;
+    font-weight: 500;
+    margin-top: 30px;
+}
+
+.box{
+    width:50px;
+    height: 60px;
+    text-align: center;
+
+}
+.box h2{
+    font-size: 20px;
+    font-weight: 400;
+
+}
+.box small{
+    font-size: 10px;
+}
+
+@media(min-width:576px){
+.festivel{
+    font-size: 60px;
+}
+p{
+    font-size: 20px;
+}
+.box h2{
+    font-size: 30px;
+}
+.box{
+    width:60px;
+    height: 70px;
+}
+.box small{
+    font-size: 12px;
+}
+}
+
+@media(min-width:768px){
+    .festivel{
+        font-size: 95px;
+    }
+    p{
+        font-size: 25px;
+    }
+    .box h2{
+        font-size: 45px;
+    }
+    .box{
+        width:70px;
+        height: 80px;
+    }
+    .box small{
+        font-size: 17px;
+    } 
+    
+}
